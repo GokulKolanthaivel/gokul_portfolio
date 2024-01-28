@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <div className="Home">
-      <img className='developerPicture' src="./developerPicture.jpeg" /> 
+      <img className='developerPicture' src="./images/developerPicture.jpeg" /> 
       <div className='homeText'>
         <h1 className='nameText'>Hi... This is Gokul</h1>
         <h6 className='positionText'><span>{developerPosition} </span></h6>

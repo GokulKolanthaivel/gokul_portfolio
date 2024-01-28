@@ -3,20 +3,20 @@ import "./Experience.css"
 
 function Experience() {
   const skillsData:any = [
-    {"title":"Python","url":"./python.png"},
-    {"title":"React JS","url":"./reactJs.png"},
-    {"title":"JavaScript","url":"./js.png"},
-    {"title":"Flask","url":"./flask.png"},
-    {"title":"MySql","url":"./mysql.jpg"},
-    {"title":"MongoDB","url":"./mongoDb.jpg"},
-    {"title":"Azure","url":"./msAzure.png"},
-    {"title":"Babylon JS","url":"./babylonJs.png"},
-    {"title":"NodeJS","url":"./nodeJs.png"},
-    {"title":"Css","url":"./css.png"},
-    {"title":"Html","url":"./html5.png"},
-    {"title":"Git","url":"./git.png"},
-    {"title":"C Sharp","url":"./csharp.png"},
-    {"title":"Azure","url":"./msAzure.png"},
+    {"title":"Python","url":"./images/python.png"},
+    {"title":"React JS","url":"./images/reactJS.png"},
+    {"title":"JavaScript","url":"./images/js.png"},
+    {"title":"Flask","url":"./images/flask.png"},
+    {"title":"MySql","url":"./images/mysql.jpg"},
+    {"title":"MongoDB","url":"./images/mongoDb.jpg"},
+    {"title":"Azure","url":"./images/msAzure.png"},
+    {"title":"Babylon JS","url":"./images/babylonJs.png"},
+    {"title":"NodeJS","url":"./images/nodeJs.png"},
+    {"title":"Css","url":"./images/css.png"},
+    {"title":"Html","url":"./images/html5.png"},
+    {"title":"Git","url":"./images/git.png"},
+    {"title":"C Sharp","url":"./images/csharp.png"},
+    {"title":"Azure","url":"./images/msAzure.png"},
   ]
 
   return (

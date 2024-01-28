@@ -8,7 +8,7 @@ function About() {
       <div className="aboutContainer">
         <Row >
           <Col className="pictureCol" xs={12} md={12} lg={6}  xl={6}>
-            <img className="developerPic" src="./developerPicture2.jpeg"  />
+            <img className="developerPic" src="./images/developerPicture2.jpeg"  />
           </Col>
           <Col className="aboutMeCol" xs={12} md={12} lg={6}  xl={6}>
             <div className="aboutTitleContainer">
