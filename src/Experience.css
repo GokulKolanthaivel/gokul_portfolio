@@ -1,6 +1,33 @@
 .Experience{
     margin-top: 70px !important;
 }
+
+.experienceContainer{
+    margin: 30px 40px !important;
+}
+
+.companyTitle{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.roleTitle{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+.experienceContainer p{
+    word-wrap: break-word;
+    padding: 0px 30px;
+    width: 90%;
+    color: #999999;
+
+}
+
+
+
+
+
 .skillsContainer{
     margin: 20px 40px !important;
 }
@@ -51,5 +78,10 @@
     .skillImage{
         width: 100px;
         height: 100px;
+    }
+    .experienceContainer p{
+        word-wrap: break-word;
+        padding: 0px 10px;
+        width: 100%;
     }
 }

@@ -5,23 +5,11 @@
 }
 
 .developerPicture{
-    display: block;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-background-position: center;
-    background-position: center;
     width: 100%;
-    object-fit: cover;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     height: 100vh;
-    opacity: 0.6;
-    pointer-events: none;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    border-radius: 20px;
+    display: fixed;
+    opacity: 0.8;
 }
 
 .homeText{
@@ -51,6 +39,38 @@
     letter-spacing: 0.00938em;
     text-align: center;
     user-select: none;
+}
+
+@media (max-width:1000px){
+
+    .homeText {
+        position: absolute;
+        color: #000000;
+        top: 40%;
+        left: 40%;
+        transform: translateX(-50%);
+      }
+    
+      .nameText {
+        margin: 0px 0px 0.35em;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.167;
+        letter-spacing: -0.01562em;
+        text-align: center;
+        user-select: none;
+      }
+    
+      .positionText {
+        margin: 0px 0px 0.35em;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.75;
+        color: aliceblue;
+        letter-spacing: 0.00938em;
+        text-align: center;
+        user-select: none;
+      }
 }
 
 @keyframes animationName {

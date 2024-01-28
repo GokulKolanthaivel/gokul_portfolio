@@ -39,3 +39,20 @@
 .contentSection{
     padding: 10px;
 }
+
+.contentSection p{
+    color: #999999;
+}
+
+@media (max-width: 500px) {
+  .developerPic{
+    width: 300px !important;
+    height: 300px !important;
+  }
+  .aboutClass hr{
+    width: 25%;
+    border: none; 
+    border-top: 2px solid #000000; 
+    margin: 20px 0;
+}
+}

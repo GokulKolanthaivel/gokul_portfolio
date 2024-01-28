@@ -64,9 +64,9 @@ nav ul li{
 nav ul li a{
   color: rgb(0, 0, 0);
   font-size: 17px;
+  font-weight: 600;
   padding: 7px 13px;
   border-radius: 3px;
-  text-transform: uppercase;
   text-decoration: none;
 }
 a.active,a:hover{
@@ -103,7 +103,7 @@ a.active,a:hover{
   ul{
     position: absolute;
     width: 35%;
-    height: auto;
+    height: 100%;
     z-index: 1100;
     overflow-y: auto;
     overflow-x: hidden;
