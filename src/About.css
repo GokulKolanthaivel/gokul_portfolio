@@ -1,0 +1,41 @@
+.aboutClass{
+    margin-top: 65px !important;
+    padding: 30px !important;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center !important;
+    /* background-color: rgb(55, 255, 0); */
+}
+.aboutClass .aboutContainer{
+    /* background-color: aqua; */
+    width: 100%;
+    height: auto ;
+}
+
+.aboutClass .pictureCol{
+    display: flex;
+    padding: 20px ;
+    justify-content: center;
+    align-items: center;
+}
+.aboutClass .developerPic{
+    border: #f0c976 solid 15px;
+    width: 500px;
+    height: 500px;
+}
+.aboutClass hr{
+    width: 37%;
+    border: none; 
+    border-top: 2px solid #000000; 
+    margin: 20px 0;
+}
+
+.aboutClass .aboutTitleContainer{
+    display: flex;
+    justify-content:space-around;
+}
+
+.contentSection{
+    padding: 10px;
+}

@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  font-style: normal !important;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* background-color: #282c34 !important; */
 }
 
 .App-logo {
@@ -35,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mainComponents{
+  position: relative;
+}
+
+.navComponent{
+  display: flex;
 }
