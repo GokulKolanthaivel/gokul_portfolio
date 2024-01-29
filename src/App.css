@@ -40,10 +40,21 @@
   }
 }
 
+
+.navComponent{
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+}
+
 .mainComponents{
   position: relative;
 }
 
-.navComponent{
-  display: flex;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
