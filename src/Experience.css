@@ -66,6 +66,7 @@
     width: 150px;
     height: 150px;
     border-radius: 10%;
+    mix-blend-mode: multiply;
 }
 
 .skillImageTitle{
@@ -78,6 +79,8 @@
     .skillImage{
         width: 100px;
         height: 100px;
+        mix-blend-mode: multiply;
+
     }
     .experienceContainer p{
         word-wrap: break-word;
