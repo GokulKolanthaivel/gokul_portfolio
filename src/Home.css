@@ -52,13 +52,13 @@
       display: fixed;
       opacity: 0.8;
       object-fit: cover;
-      object-position: bottom;
+      object-position: top;
     }
 
     .homeText {
         position: absolute;
         color: #000000;
-        top: 40%;
+        top: 20%;
         left: 40%;
         transform: translateX(-50%);
       }

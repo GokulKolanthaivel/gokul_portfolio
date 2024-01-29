@@ -93,6 +93,12 @@ a.active,a:hover{
   }
   nav ul li a{
     font-size: 16px;
+    padding: 7px 13px;
+  }
+  a.active,a:hover{
+    background: #ffffff !important;
+    transition: .5s !important;
+    border-radius: 5px !important;
   }
 }
 @media (max-width: 858px){
@@ -120,12 +126,13 @@ a.active,a:hover{
     line-height: 30px;
   }
   nav ul li a{
-    font-size: 18px;
-    padding: 0px;
+    font-size: 18px !important;
+    padding: 7px 7px;
   }
-  a:hover,a.active{
-    background: none;
-    color: #ffffff;
+  a.active,a:hover{
+    background: #ffffff !important;
+    transition: .5s !important;
+    border-radius: 5px !important;
   }
   #check:checked ~ ul{
     left: 0;

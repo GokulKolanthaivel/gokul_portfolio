@@ -34,8 +34,10 @@ function About() {
               <p>
               Then I learned Web Development and played with some funny projects.
 
-              After graduation, I have entered into Lightcast, worked on Web Apps using ReactJs, and, backend using Python.
-              One thing I prefer to follow
+              After graduation, I have entered into Nallas Corporation, worked on Web Apps using ReactJs, and, backend using Python.
+              </p>
+              <p>
+                One thing I prefer to follow
               </p>
               <h3>Chase your Dreams</h3>
             </section>

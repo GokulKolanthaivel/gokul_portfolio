@@ -1,7 +1,18 @@
 import { Link } from "react-router-dom";
 import "./NavTab.css"
+import { useEffect } from "react";
 
 function NavTab(){
+
+
+    const handelclick =()=>{
+        const checkbox = document.getElementById('check') as HTMLInputElement | null;
+        if (checkbox) {
+          checkbox.checked = false;
+        }
+    }
+
+
     return(
         <>
         {/* <nav className="navTab">
@@ -20,10 +31,10 @@ function NavTab(){
                 </label>
                 <label className="logo">Portfolio</label>
                 <ul>
-                    <li><Link to={'/'} > Home </Link></li>
-                    <li><Link to={'/about'} >About</Link></li>
-                    <li><Link to={'/experience'} >Experience</Link></li>
-                    <li><Link to={'/contact'} >Contact</Link></li>
+                    <li onClick={handelclick}><Link to={'/'} > Home </Link></li>
+                    <li onClick={handelclick}><Link to={'/about'} >About</Link></li>
+                    <li onClick={handelclick}><Link to={'/experience'} >Experience</Link></li>
+                    <li onClick={handelclick}><Link to={'/contact'} >Contact</Link></li>
                 </ul>
             </nav>
         </>

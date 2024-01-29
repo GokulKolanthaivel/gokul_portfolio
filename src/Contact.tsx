@@ -10,7 +10,7 @@ function Contact() {
         <div className="heading text-center">
           <h2>Contact
             <span> Us </span></h2>
-            <p>Thank you for taking the time to explore my portfolio. If you have any inquiries, <br></br>collaboration proposals, or if you simply want to connect, I would love to hear from you.<br></br> Feel free to reach out using the contact information below:</p>
+            <p>Thank you for taking the time to explore my portfolio. If you have any inquiries, collaboration proposals, or if you simply want to connect, I would love to hear from you. Feel free to reach out using the contact information below:</p>
         </div>
         <div className="row">
           <div className="col-md-5">
@@ -35,6 +35,13 @@ function Contact() {
                 <h4 className="d-inline-block">ADDRESS :<br />
                   <span>73/92, Seerapalli, Rasipuram, Namakkal - 637406</span></h4>
               </div>
+            </div>
+            <div>
+              <Row className="socialPlatforms"> 
+                <Col   className="col-md-2 info"><a href="https://www.linkedin.com/in/gokul-kolanthaivel-b0b2a1221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i className="fab fa-linkedin"></i> </a></Col>
+                <Col className="col-md-2 info"> <a href="https://github.com/dashboard"><i className="fab fa-github"></i> </a></Col>
+                <Col className="col-md-2 info"> <a href="https://www.instagram.com/voldy_g?igsh=MWhleHE4ZnB4dW41dA=="><i className="fab fa-instagram"></i></a> </Col>
+              </Row>
             </div>
           </div>
 
