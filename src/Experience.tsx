@@ -16,7 +16,7 @@ function Experience() {
     {"title":"Html","url":"./images/html5.png"},
     {"title":"Git","url":"./images/git.png"},
     {"title":"C Sharp","url":"./images/csharp.png"},
-    {"title":"Azure","url":"./images/msAzure.png"},
+    {"title":"TypeScript","url":"./images/typescript.png"},
   ]
 
   return (

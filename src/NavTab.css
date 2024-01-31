@@ -107,7 +107,6 @@ a.active,a:hover{
   ul{
     position: absolute;
     width: 35%;
-    height: 100%;
     z-index: 1100;
     overflow-y: auto;
     overflow-x: hidden;
