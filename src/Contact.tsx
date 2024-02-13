@@ -1,7 +1,38 @@
 import { Col, Row } from "react-bootstrap";
 import "./Contact.css";
+import { useRef, useEffect, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+
+  const [email ,setEmail] = useState("");
+  const [name ,setName] = useState("");
+  const [message ,setMessage] = useState("");
+
+  useEffect(() => emailjs.init("NISllBBP3SXW-_dgA"), []);
+
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e:any) => {
+    e.preventDefault();
+    const serviceId = "service_r33neeb";
+    const templateId = "template_f4xidaq";
+    try {
+      setLoading(true);
+      await emailjs.send(serviceId, templateId, {
+        name: name,
+        recipient: email,
+        message : message
+      });
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setLoading(false);
+      setEmail("")
+      setName("")
+      setMessage("")
+    }
+  };
 
   return (
 
@@ -45,26 +76,23 @@ function Contact() {
             </div>
           </div>
 
-          {/* <div className="col-md-7">
+          <div className="col-md-7">
 
-            <form>
+            <form onSubmit={handleSubmit} >
               <div className="row">
                 <div className="col-sm-6">
-                  <input type="text" className="form-control" placeholder="Name" />
+                  <input type="text" value={name} required onChange={(e)=>setName(e.target.value)} className="form-control" placeholder="Name" />
                 </div>
                 <div className="col-sm-6">
-                  <input type="email" className="form-control" placeholder="Email" />
-                </div>
-                <div className="col-sm-12">
-                  <input type="text" className="form-control" placeholder="Subject" />
+                  <input type="email" value={email} required onChange={(e)=>setEmail(e.target.value)} className="form-control" placeholder="Email" />
                 </div>
               </div>
               <div className="form-group">
-                <textarea className="form-control" id="comment" placeholder="Message"></textarea>
+                <textarea value={message} onChange={(e)=>setMessage(e.target.value)} className="form-control" id="comment" placeholder="Message"></textarea>
               </div>
-              <button className="btn btn-block" type="submit">Send Now!</button>
+              <button disabled={loading} className="btn btn-block" type="submit">Send Now!</button>
             </form>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
@@ -73,3 +101,5 @@ function Contact() {
 }
 
 export default Contact;
+
+
