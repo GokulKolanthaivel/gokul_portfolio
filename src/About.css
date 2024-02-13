@@ -20,9 +20,9 @@
     align-items: center;
 }
 .aboutClass .developerPic{
-    border: #f0c976 solid 15px;
-    width: 500px;
-    height: 500px;
+    /* border: #f0c976 solid 15px; */
+    width: 300px;
+    height: 350px;
 }
 .aboutClass hr{
     width: 37%;
@@ -41,7 +41,7 @@
 }
 
 .contentSection p{
-    color: #999999;
+    color: #494747;
 }
 
 @media (max-width: 500px) {
@@ -55,4 +55,8 @@
     border-top: 2px solid #000000; 
     margin: 20px 0;
 }
+}
+
+.quote{
+    font-style: italic;
 }

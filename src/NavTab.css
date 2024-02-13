@@ -38,11 +38,20 @@
 } */
 
 
+
 nav{
   background-color: #dddeed;
   height: 80px;
   width: 100%;
 }
+
+.navTabActive {
+
+  border-bottom: 3px solid rgb(88, 71, 71);
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
 label.logo{
   color: rgb(232, 0, 0);
   font-size: 35px;
@@ -67,7 +76,7 @@ nav ul li a{
   border-radius: 3px;
   text-decoration: none;
 }
-a.active,a:hover{
+a.active{
   background: #ffffff;
   transition: .5s;
   border-radius: 5px;

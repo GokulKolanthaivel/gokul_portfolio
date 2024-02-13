@@ -1,15 +1,17 @@
 import { Link } from "react-router-dom";
 import "./NavTab.css"
-import { useEffect } from "react";
+import { useState } from "react";
 
 function NavTab(){
 
-
-    const handelclick =()=>{
+    var pathName = document.location.pathname.slice(1);
+    const [activeItem, setActiveItem] = useState(pathName==""?"home":pathName);
+    const handelclick =(value:any)=>{
         const checkbox = document.getElementById('check') as HTMLInputElement | null;
         if (checkbox) {
           checkbox.checked = false;
         }
+        setActiveItem(value);
     }
 
 
@@ -31,10 +33,10 @@ function NavTab(){
                 </label>
                 <label className="logo">Portfolio</label>
                 <ul>
-                    <li onClick={handelclick}><Link to={'/'} > Home </Link></li>
-                    <li onClick={handelclick}><Link to={'/about'} >About</Link></li>
-                    <li onClick={handelclick}><Link to={'/experience'} >Experience</Link></li>
-                    <li onClick={handelclick}><Link to={'/contact'} >Contact</Link></li>
+                    <li id="home" onClick={()=>handelclick("home")}><Link className={activeItem === "home" ? "navTabActive" : ""}  to={'/'} > Home </Link></li>
+                    <li id="about" onClick={()=>handelclick("about")}><Link className={activeItem === "about" ? "navTabActive" : ""} to={'/about'} >About</Link></li>
+                    <li id="experience" onClick={()=>handelclick("experience")}><Link  className={activeItem === "experience" ? "navTabActive" : ""} to={'/experience'} >Experience</Link></li>
+                    <li id="contact" onClick={()=>handelclick("contact")}><Link className={activeItem === "contact" ? "navTabActive" : ""} to={'/contact'} >Contact</Link></li>
                 </ul>
             </nav>
         </>

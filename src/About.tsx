@@ -39,7 +39,7 @@ function About() {
               <p>
                 One thing I prefer to follow
               </p>
-              <h3>Chase your Dreams</h3>
+              <h3 className="quote">Chase your Dreams !</h3>
             </section>
           </Col>
         </Row>
