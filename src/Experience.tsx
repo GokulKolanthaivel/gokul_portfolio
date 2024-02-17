@@ -36,14 +36,7 @@ function Experience() {
               seamlessly integrating backend functionalities
             </p>
           <h4  className="roleTitle">Associate Engineer (Jan 2022 - Mar 2023)</h4>
-            <p>
-              Orchestrated the adoption of asynchronous operations to elevate API integration
-              efficiency, optimizing the responsiveness of the system
-            </p>
-            <p>
-              Engineered Python backend enhancements through the seamless integration of
-              decorators, augmenting functionality and streamlining code execution
-            </p>
+           
             <p>Developed and integrated UI components utilizing ReactJS, contributing to an enriched
               user interface and improved overall user experience
             </p>
@@ -54,13 +47,18 @@ function Experience() {
             <p>Addressed and rectified issues and bugs within the web application to ensure a
               smooth and seamless user experience
             </p>
+            <p>
+              Orchestrated the adoption of asynchronous operations to elevate API integration
+              efficiency, optimizing the responsiveness of the system
+            </p>
+            <p>
+              Engineered Python backend enhancements through the seamless integration of
+              decorators, augmenting functionality and streamlining code execution
+            </p>
 
       <h2 className="companyTitle">Brahmarsive India Pvt Ltd (Sister Concern of Nallas)</h2>
         <h4  className="roleTitle">Associate Engineer (Apr 2023 -Jan 2024)</h4>
-            <p>
-              Developed robust Python backend APIs, seamlessly connecting them with the frontend 
-              for effective communication
-            </p>
+          
             <p>
               Collaborated with the design unit to craft intuitive ReactJS user interfaces, integrating 
               immersive 3D experiences with Babylon.js
@@ -72,6 +70,10 @@ function Experience() {
             <p>
               Expertly integrated 3D assets, executed real-time physics simulations, and enriched 
               user interactions within Babylon.js
+            </p>
+            <p>
+              Developed robust Python backend APIs, seamlessly connecting them with the frontend 
+              for effective communication
             </p>
             <p>
               Orchestrated Azure deployment, ensuring continuous application maintenance and 

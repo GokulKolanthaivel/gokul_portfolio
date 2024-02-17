@@ -21,7 +21,7 @@ function Home() {
       <div className='homeText'>
         <h1 className='nameText'>Hi... This is Gokul</h1>
         <h6 className='positionText'><span>{developerPosition} </span></h6>
-      </div>
+      </div> 
     </div>
   );
 }

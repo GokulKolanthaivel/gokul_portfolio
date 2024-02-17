@@ -70,7 +70,7 @@ function Contact() {
             <div>
               <Row className="socialPlatforms"> 
                 <Col   className="col-md-2 info"><a href="https://www.linkedin.com/in/gokul-kolanthaivel-b0b2a1221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i className="fab fa-linkedin"></i> </a></Col>
-                <Col className="col-md-2 info"> <a href="https://github.com/dashboard"><i className="fab fa-github"></i> </a></Col>
+                <Col className="col-md-2 info"> <a href="https://github.com/GokulKolanthaivel"><i className="fab fa-github"></i> </a></Col>
                 <Col className="col-md-2 info"> <a href="https://www.instagram.com/voldy_g?igsh=MWhleHE4ZnB4dW41dA=="><i className="fab fa-instagram"></i></a> </Col>
               </Row>
             </div>

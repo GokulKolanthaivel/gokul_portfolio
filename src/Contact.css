@@ -128,4 +128,8 @@
         text-decoration: none !important;
         background: none !important;
     }
+
+    .contact .col-md-7{
+        margin-top: 30px;
+    }
 }
