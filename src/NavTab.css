@@ -35,11 +35,12 @@ nav ul li a{
   border-radius: 3px;
   text-decoration: none;
 }
-a.active{
+a.active,a:hover{
   background: #ffffff;
   transition: .5s;
   border-radius: 5px;
 }
+
 .checkbtn{
   font-size: 30px;
   color: white;
