@@ -84,7 +84,7 @@ function Contact() {
                   <input type="text" value={name} required onChange={(e)=>setName(e.target.value)} className="form-control" placeholder="Name" />
                 </div>
                 <div className="col-sm-6">
-                  <input type="email" value={email} required onChange={(e)=>setEmail(e.target.value)} className="form-control" placeholder="Email" />
+                  <input type="email" value={email} required onChange={(e)=>{e.target.value == "gokulsksd@gmail.com" ? setEmail("") :setEmail(e.target.value)}} className="form-control" placeholder="Email" />
                 </div>
               </div>
               <div className="form-group">
